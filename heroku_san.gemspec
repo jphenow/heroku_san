@@ -41,5 +41,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<aruba>)
     s.add_dependency(%q<cucumber>)
   end
+
+  s.extensions = ["ext/mkrf_conf.rb"]
 end
 
